@@ -19,7 +19,7 @@ public class Diffinputs {
         System.out.print("Enter a boolean (true/false): ");
         boolean e = sc.nextBoolean();
 
-        sc.nextLine(); // clear buffer
+        sc.nextLine();
 
         System.out.print("Enter a string: ");
         String name = sc.nextLine();
