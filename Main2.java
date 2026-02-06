@@ -22,6 +22,7 @@ public class Main2 {
         System.out.println(Student.count);
         S.display();
         System.out.println(Student.college);
+        
         Student S1=new Student();
         S1.getdata(10,"Amit");
         System.out.println(Student.count);
