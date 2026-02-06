@@ -3,8 +3,6 @@ import java.util.Scanner;
 class Rectangle {
     int length;
     int breadth;
-
-    // Method to get data
     void getData() {
         Scanner sc = new Scanner(System.in);
 
@@ -15,7 +13,6 @@ class Rectangle {
         breadth = sc.nextInt();
     }
 
-    // Method to calculate area
     void calculateArea() {
         int area = length * breadth;
         System.out.println("Area of Rectangle = " + area);
