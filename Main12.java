@@ -12,7 +12,7 @@ class Overload{
 public class Main12 {
     public static void main(String[] args) {
         Overload O1=new Overload();
-        int r=O1.add(10,20);
+        int r=O1.add(10,20,30);
         System.out.println(r);
     }
 }
