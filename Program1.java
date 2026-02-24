@@ -18,6 +18,7 @@ public class Program1 implements I2 {
     public static void main(String[] args) {
         Program1 P=new Program1();
         P.display();
+        System.out.println(Program1.r);
     }
     
 }
