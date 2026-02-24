@@ -17,6 +17,8 @@ interface CC extends AA{
 
 class Program2 implements BB, CC{
     public void display(){
+        CC.super.display();
+        BB.super.display();
         System.out.println("Display in Class Program2");
     }
 }
